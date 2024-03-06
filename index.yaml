@@ -1,0 +1,20 @@
+apiVersion: v1
+entries:
+  spar-helm-chart:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-03-06T11:29:56.666540633Z"
+    dependencies:
+    - name: social-payments-account-registry
+      repository: ""
+      version: 0.1.0
+    - name: spar-self-service-ui
+      repository: ""
+      version: 0.1.0
+    description: A Helm chart for spar application
+    digest: 57af3bbbb95b93b9aaa2942fb88872a112f678deea886093cd56834a1861dffa
+    name: spar-helm-chart
+    urls:
+    - https://github.com/pavanv95/spartest.git/spar-helm-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-03-06T11:29:56.621587909Z"
