@@ -3,7 +3,7 @@ entries:
   spar-helm-chart:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-03-06T11:29:56.666540633Z"
+    created: "2024-03-07T07:54:10.463479543Z"
     dependencies:
     - name: social-payments-account-registry
       repository: ""
@@ -12,9 +12,9 @@ entries:
       repository: ""
       version: 0.1.0
     description: A Helm chart for spar application
-    digest: 57af3bbbb95b93b9aaa2942fb88872a112f678deea886093cd56834a1861dffa
+    digest: 7a2dfd06a0f659974db07655bb6d03f471822aa0d7d547562fd228483f6bfc5b
     name: spar-helm-chart
     urls:
-    - https://github.com/pavanv95/spartest.git/spar-helm-chart-0.1.0.tgz
+    - spar-helm-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2024-03-06T11:29:56.621587909Z"
+generated: "2024-03-07T07:54:10.418935467Z"
