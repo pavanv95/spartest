@@ -105,13 +105,13 @@ istio:
       mode: SIMPLE
       credentialName: ""
 
-#postgresql:
-#  enabled: false
-#  auth:
-#    username: sparuser
-#    database: spardb
-#  primary:
-#    extendedConfiguration: |-
-#      wal_level = logical
-#      max_wal_senders = 20
-#      max_replication_slots = 10
+postgresql:
+  enabled: false
+  auth:
+    username: sparuser
+    database: spardb
+  primary:
+    extendedConfiguration: |-
+      wal_level = logical
+      max_wal_senders = 20
+      max_replication_slots = 10
